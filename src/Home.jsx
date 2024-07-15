@@ -1,6 +1,13 @@
+import { useEffect } from "react"
+import { Link } from "react-router-dom"
+
 import NewsArticles from "./NewsArticles"
 
 export default function Home() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className="flex flex-col md:flex-row gap-4">
@@ -23,10 +30,11 @@ export default function Home() {
 
       <div className="md:w-1/4 my-12">
         <h1 className="text-2xl font-bold text-sky-600">Recent News</h1>
-        <div className="grid h-full gap-8 place-items-center">
+        <div className="flex flex-col h-full gap-2">
           <div className="grid gap-4">
             <NewsArticles isHome={true} />
           </div>
+          <Link to="/news" className="text-sky-600 hover:text-sky-800 w-full text-right">All News and Events {'>>'}</Link>
         </div>
       </div>
     </div>

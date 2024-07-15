@@ -1,6 +1,11 @@
+import { useEffect } from "react"
 import NewsArticles from "./NewsArticles";
 
 export default function News() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  })
 
   return (
     <>
