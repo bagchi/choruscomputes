@@ -2,6 +2,8 @@ function Home() {
 
   return (
     <>
+      <h1 className="text-3xl font-bold text-sky-600">NSF Frontier Project - CHORUS</h1>
+      <h2 className="text-sm text-sky-600 mb-4">Funded by NSF awards 2333487, 2333488, 2333489, 2333491; 2024-29.</h2>
       <p className="grid place-items-center">
         Cyber-Physical Systems (CPS) are typically composed of interconnected hardware and software components, which individually may not be inherently highly reliable or secure. However, several CPS applications demand a high degree of safety, security, and reliability. Thus, the fundamental problem is constructing highly dependable CPS applications from building blocks that are, in themselves, not inherently reliable.
         <br /> <br />

@@ -15,37 +15,37 @@ export default function WhoWeAre() {
       name: "Sam Coogan",
       title: "Thrust 1 lead",
       picture: "unknown",
-      affiliation: "unknown",
+      affiliation: "Georgia Institute of Technology (Georgia Tech)",
     },
     {
       name: "Shreyas Sundaram",
       title: "Thrust 2 lead",
       picture: "unknown",
-      affiliation: "unknown",
+      affiliation: "Purdue University",
     },
     {
       name: "Saman Zonouz",
       title: "Thrust 3 lead",
       picture: "unknown",
-      affiliation: "unknown",
+      affiliation: "Georgia Institute of Technology (Georgia Tech)",
     },
     {
       name: "Ramesh Govindan",
       title: "Application domain lead",
       picture: "unknown",
-      affiliation: "unknown",
+      affiliation: "University of Southern California",
     },
     {
       name: "Somali Chaterji",
       title: "Evaluation lead",
       picture: "unknown",
-      affiliation: "unknown",
+      affiliation: "Purdue University",
     },
     {
       name: "Carla Zoltowski",
       title: "Assessment lead",
       picture: "unknown",
-      affiliation: "unknown",
+      affiliation: "Purdue University",
     },
   ];
 
@@ -56,22 +56,22 @@ export default function WhoWeAre() {
     {
       name: "Tim Cason",
       picture: "unknown",
-      affiliation: "unknown"
+      affiliation: "Purdue University"
     },
     {
       name: "Yin Li",
       picture: "unknown",
-      affiliation: "unknown"
+      affiliation: "University of Wisconsin-Madison"
     },
     {
       name: "Aravind Machiry",
       picture: "unknown",
-      affiliation: "unknown"
+      affiliation: "Purdue University"
     },
     {
       name: "Feng Qian",
       picture: "unknown",
-      affiliation: "unknown"
+      affiliation: "University of Southern California"
     },
   ];
 

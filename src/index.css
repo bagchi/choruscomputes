@@ -13,3 +13,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.reactMarkDown a {
+  color: rgb(2 132 199);
+  border-bottom: rgb(2 132 199) 1px solid;
+}
+
+.reactMarkDown a:hover {
+  color: rgb(7 89 133);
+  border-bottom: rgb(7 89 133) 1px solid;
+}
