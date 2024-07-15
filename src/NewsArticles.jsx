@@ -22,11 +22,6 @@ export default function NewsArticles(props) {
       date: "",
       content: "We are hiring post-doctoral scholars for our CHORUS center. Here is how to apply. [[ DOC ]](https://docs.google.com/document/d/1ClUScynIkSB_V3qN9RVaTXjszN_c3FG9IAOFMgUdYO8/edit?usp=sharing)",
     },
-    {
-      title: "Hiring Post-Docs for CHORUS",
-      date: "",
-      content: "We are hiring post-doctoral scholars for our CHORUS center. Here is how to apply. [[ DOC ]](https://docs.google.com/document/d/1ClUScynIkSB_V3qN9RVaTXjszN_c3FG9IAOFMgUdYO8/edit?usp=sharing)",
-    },
   ];
 
   if (props.isHome) {
