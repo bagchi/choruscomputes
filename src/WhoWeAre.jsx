@@ -14,37 +14,37 @@ export default function WhoWeAre() {
     {
       name: "Sam Coogan",
       title: "Thrust 1 lead",
-      picture: "unknown",
+      picture: "pictures/sam-coogan.jpg",
       affiliation: "Georgia Institute of Technology (Georgia Tech)",
     },
     {
       name: "Shreyas Sundaram",
       title: "Thrust 2 lead",
-      picture: "unknown",
+      picture: "pictures/Shreyas-Sundaram.jpg",
       affiliation: "Purdue University",
     },
     {
       name: "Saman Zonouz",
       title: "Thrust 3 lead",
-      picture: "unknown",
+      picture: "pictures/Saman-Zonouz.jpeg",
       affiliation: "Georgia Institute of Technology (Georgia Tech)",
     },
     {
       name: "Ramesh Govindan",
       title: "Application domain lead",
-      picture: "unknown",
+      picture: "pictures/Ramesh-Govindan.jpg",
       affiliation: "University of Southern California",
     },
     {
       name: "Somali Chaterji",
       title: "Evaluation lead",
-      picture: "unknown",
+      picture: "pictures/Somali-Chaterji.png",
       affiliation: "Purdue University",
     },
     {
       name: "Carla Zoltowski",
       title: "Assessment lead",
-      picture: "unknown",
+      picture: "pictures/Carla-Zoltowski.jpg",
       affiliation: "Purdue University",
     },
   ];
@@ -55,22 +55,22 @@ export default function WhoWeAre() {
   const CoPIs = [
     {
       name: "Tim Cason",
-      picture: "unknown",
+      picture: "pictures/Tim-Cason.jpg",
       affiliation: "Purdue University"
     },
     {
       name: "Yin Li",
-      picture: "unknown",
+      picture: "pictures/yin-li.jpg",
       affiliation: "University of Wisconsin-Madison"
     },
     {
       name: "Aravind Machiry",
-      picture: "unknown",
+      picture: "pictures/Aravind-Machiry.jpg",
       affiliation: "Purdue University"
     },
     {
       name: "Feng Qian",
-      picture: "unknown",
+      picture: "pictures/Feng-Qian.jpg",
       affiliation: "University of Southern California"
     },
   ];
@@ -81,75 +81,75 @@ export default function WhoWeAre() {
   const industry_partners = [
     {
       company: "General Motors",
-      logo: "unknown",
+      logo: "partner_logos/General-Motors.png",
       partners: [
         {
           name: "Dr. Fan Bai",
-          picture: "unknown",
+          picture: "pictures/Fan-Bai.jpg",
         },
         {
           name: "Paul Krajeswi",
-          picture: "unknown",
+          picture: "pictures/Paul-Krajeswi.jpg",
         },
       ]
     },
     {
       company: "INDOT",
-      logo: "unknown",
+      logo: "partner_logos/indot.svg",
       partners: [
         {
           name: "Nathan Sturdevant",
-          picture: "unknown",
+          picture: "pictures/Nathan-Sturdevant.jpg",
         },
       ]
     },
     {
       company: "Microsoft Azure",
-      logo: "unknown",
+      logo: "partner_logos/Microsoft-Azure.png",
       partners: [
         {
           name: "Ranveer Chandra",
-          picture: "unknown",
+          picture: "pictures/Ranveer-Chandra.jpg",
         },
       ]
     },
     {
       company: "Adobe Research",
-      logo: "unknown",
+      logo: "partner_logos/adobe-research.png",
       partners: [
         {
           name: "Kanak Mahadik",
-          picture: "unknown",
+          picture: "pictures/Kanak-Mahadik.png",
         },
       ]
     },
     {
       company: "Amazon",
-      logo: "unknown",
+      logo: "partner_logos/amazon.png",
       partners: [
         {
           name: "Murali Krishna Ramanathan",
-          picture: "unknown",
+          picture: "pictures/Murali-Krishna-Ramanathan.jpg",
         },
       ]
     },
     {
       company: "Intel",
-      logo: "unknown",
+      logo: "partner_logos/intel.png",
       partners: [
         {
           name: "Christopher Gutierrez",
-          picture: "unknown",
+          picture: "pictures/Christopher-Gutierrez.jpg",
         },
       ]
     },
     {
       company: "Rose-Hulman Institute of Technology",
-      logo: "unknown",
+      logo: "partner_logos/Rose–Hulman_Institute_of_Technology.svg",
       partners: [
         {
           name: "Zachary Estrada",
-          picture: "unknown",
+          picture: "pictures/Zachary-Estrada.jpg",
         },
       ]
     },
@@ -165,7 +165,7 @@ export default function WhoWeAre() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {Leadership.map((leader) => (
             <div key={leader.name} className="flex flex-row gap-4">
-              <img src={leader.picture} alt={leader.name} className="object-cover h-48 w-48 bg-red-400" />
+              <img src={leader.picture} alt={leader.name} className="object-cover h-48 w-48" />
               <div>
                 <h3 className="text-xl font-bold">{leader.name}</h3>
                 <p>{leader.title}</p>
@@ -179,7 +179,7 @@ export default function WhoWeAre() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {CoPIs.map((leader) => (
             <div key={leader.name} className="flex flex-row gap-4">
-              <img src={leader.picture} alt={leader.name} className="object-cover h-48 w-48 bg-red-400" />
+              <img src={leader.picture} alt={leader.name} className="object-cover h-48 w-48" />
               <div>
                 <h3 className="text-xl font-bold">{leader.name}</h3>
                 <p>{leader.affiliation}</p>
@@ -191,15 +191,15 @@ export default function WhoWeAre() {
         <h2 className="text-2xl font-bold mt-8">Industry Partners</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {industry_partners.map((partner) => (
-            <div key={partner.company} className="flex flex-row gap-4">
-              <img src={partner.logo} alt={partner.company} className="object-cover h-40 w-40 bg-red-400" />
+            <div key={partner.company} className="flex flex-row gap-4 mb-8">
+              <img src={partner.logo} alt={partner.company} className="object-cover h-40 w-40" />
               <div>
                 <h3 className="text-xl font-bold">{partner.company}</h3>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
                   {partner.partners.map((person) => (
                     <div key={person.name} className="flex flex-col">
-                      <img src={person.picture} alt={person.name} className="object-cover h-28 w-28 bg-red-300" />
-                      <h3 className="text-lg font-semibold text-wrap break-words bg-blue-400">{person.name}</h3>
+                      <img src={person.picture} alt={person.name} className="object-cover h-28 w-28" />
+                      <h3 className="text-lg font-semibold text-wrap break-words">{person.name}</h3>
                     </div>
                   ))}
                 </div>
