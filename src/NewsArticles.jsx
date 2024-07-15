@@ -9,17 +9,17 @@ export default function NewsArticles(props) {
   let news = [
     {
       title: "NSF Project Begins",
-      date: "",
+      date: "June 2024",
       content: "NSF project begins. We are en route on our bold journey to build resilient, large-scale Cyber-Physical Systems.",
     },
     {
       title: "Center kick-off event",
-      date: "",
+      date: "July 2024",
       content: "We will be organizing our Center kick-off event at Purdue in late September. This will be an intellectually invigorating event with participation by all our team members, NSF Program Officers, plus those from other federal agencies, all our industry partners, plus students and researchers from the Purdue community.",
     },
     {
       title: "Hiring Post-Docs for CHORUS",
-      date: "",
+      date: "July 2024",
       content: "We are hiring post-doctoral scholars for our CHORUS center. Here is how to apply. [[ DOC ]](https://docs.google.com/document/d/1ClUScynIkSB_V3qN9RVaTXjszN_c3FG9IAOFMgUdYO8/edit?usp=sharing)",
     },
   ];
