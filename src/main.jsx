@@ -12,7 +12,7 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Router basename={"/"}>
+    <Router>
       <Header />
       <div className='p-4 min-h-screen md:mx-12'>
         <Routes>
