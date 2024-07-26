@@ -32,12 +32,6 @@ export default function NewsArticles(props) {
       content: "ARGUS is a groundbreaking static taint analysis system specifically designed to identify code injection vulnerabilities in GitHub Actions. It is the first of its kind, offering a unique approach to securing Continuous Integration/Continuous Deployment (CI/CD) pipelines. [[ WWW ]](https://secureci.org/) [[ PDF ]](https://www.usenix.org/system/files/usenixsecurity23-muralee.pdf)",
       images: ["/news_images/ARGUS.png"],
     },
-    {
-      title: "AAAI'23 - Distinguished Paper Award - SimFair: A Unified Framework for Fairness-Aware Multi-Label Classification",
-      date: "July 2024 - Jing Gao",
-      content: "In recent years, concerns about unfair decisions made by machine learning algorithms have increased, leading to the development of various fairness-aware methods, though most focus only on single-label classification. This paper addresses the gap in fairness for multi-label classification by extending Demographic Parity (DP) and Equalized Opportunity (EOp) to these scenarios. The authors propose a new framework, Similarity s-induced Fairness (sγ -SimFair), which improves fairness estimation by utilizing data with similar labels and demonstrates superior performance in both theoretical analysis and experimental results on real-world datasets. [[ PDF ]](https://ojs.aaai.org/index.php/AAAI/article/download/26677/26449)",
-      images: [],
-    },
   ];
 
   if (props.isHome) {
