@@ -26,12 +26,6 @@ export default function NewsArticles(props) {
       content: "We are hiring post-doctoral scholars for our CHORUS center. Here is how to apply. [[ DOC ]](https://docs.google.com/document/d/1ClUScynIkSB_V3qN9RVaTXjszN_c3FG9IAOFMgUdYO8/edit?usp=sharing)",
       images: [],
     },
-    {
-      title: "Argus: A Framework for Staged Static Taint Analysis of GitHub Workflows and Actions",
-      date: "July 2024 - Aravind Machiry",
-      content: "ARGUS is a groundbreaking static taint analysis system specifically designed to identify code injection vulnerabilities in GitHub Actions. It is the first of its kind, offering a unique approach to securing Continuous Integration/Continuous Deployment (CI/CD) pipelines. [[ WWW ]](https://secureci.org/) [[ PDF ]](https://www.usenix.org/system/files/usenixsecurity23-muralee.pdf)",
-      images: ["/news_images/ARGUS.png"],
-    },
   ];
 
   if (props.isHome) {
