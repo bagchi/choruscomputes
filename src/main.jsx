@@ -5,7 +5,7 @@ import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './Home.jsx'
 import Header from './Header.jsx'
 import WhoWeAre from './WhoWeAre.jsx'
-import News from './News.jsx'
+import NewsWrapper from './NewsWrapper.jsx'
 import Contact from './Contact.jsx'
 import Footer from './Footer.jsx'
 import './index.css'
@@ -18,7 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/who-we-are" element={<WhoWeAre />} />
-          <Route path="/news" element={<News />} />
+          <Route path="/news" element={<NewsWrapper />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>

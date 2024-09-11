@@ -1,7 +1,7 @@
 import { useEffect } from "react"
 import { Link } from "react-router-dom"
 
-import NewsArticles from "./NewsArticles"
+import NewsArticles from "./News"
 
 export default function Home() {
 
