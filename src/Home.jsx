@@ -1,7 +1,7 @@
 import { useEffect } from "react"
 import { Link } from "react-router-dom"
 
-import NewsArticles from "./News"
+import News from "./news_components/News"
 
 export default function Home() {
 
@@ -32,7 +32,7 @@ export default function Home() {
         <h1 className="text-2xl font-bold text-sky-600">Recent News</h1>
         <div className="flex flex-col h-full gap-2">
           <div className="grid gap-4">
-            <NewsArticles isHome={true} />
+            <News isHome={true} />
           </div>
           <Link to="/news" className="text-sky-600 hover:text-sky-800 w-full text-right">All News and Events {'>>'}</Link>
         </div>

@@ -1,6 +1,7 @@
 import { useEffect } from "react"
 import News from "./News";
 
+// A wrapper for the News component to be used in the News tab
 export default function NewsWrapper() {
 
   useEffect(() => {
