@@ -17,14 +17,12 @@ function NewsArticle() {
   })
 
   return (
-    <div className="lg:w-2/3 mx-auto my-10">
-      <div className="flex flex-row gap-2">
-        <button onClick={() => navigate(-1)} className="text-sky-600 hover:text-sky-800">
-          <IoIosArrowBack size={24} />
-        </button>
-        <h1 className="text-3xl font-bold">{item.title}</h1>
-      </div>
-      <h2 className="text-sm font-light">{item.date}</h2>
+    <div className="lg:w-2/3 mx-auto mb-10">
+      <button onClick={() => navigate(-1)} className="text-sky-600 hover:text-sky-800 flex mb-2">
+        <IoIosArrowBack size={24}  />Back
+      </button>
+      <h1 className="text-3xl font-bold text-center">{item.title}</h1>
+      <h2 className="text-sm font-light text-center">{item.date}</h2>
       <div className="flex flex-col gap-2 my-4">
         {item.images.map((image) => (
           <div key={image.caption}>
