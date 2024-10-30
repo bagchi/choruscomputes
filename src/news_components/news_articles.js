@@ -6,6 +6,12 @@
 // images: {url: string, caption: string}[]
 let news_articles = [
   {
+    "title": "Purdue Team Starts Work on NSF Center on Resilient Cyber-Physical Systems with Application to Autonomous Transportation",
+    "date": "October 2024",
+    "content": "Purdue University's CHORUS Center has launched, thanks to a $7 million NSF grant, to boost resilience in autonomous transportation systems. Led by Saurabh Bagchi, a Purdue engineering professor, the project brings together experts from Purdue and partner institutions to address vulnerabilities in connected autonomous transportation systems (CATS), such as connectivity failures and cyberattacks. Collaborating with industry leaders like General Motors and Amazon Web Services, the CHORUS team aims to ensure safe, reliable, and secure autonomous networks, which could potentially reduce roadway fatalities by 85%. This work supports the Purdue Computes initiative, furthering Purdue's leadership in impactful, tech-driven research.  \n&nbsp;  \nMore information here: [[ WWW ](https://www.purdue.edu/research/features/stories/purdue-university-leads-research-on-autonomous-transportation-network/)]",
+    "images": []
+  },
+  {
     "title": "Ryan Pickren, Animesh Chhotaray, Frank Li, Saman Zonouz, Raheem Beyah, Release the Hounds! Automated Inference and Empirical Security Evaluation of Field-Deployed PLCs using Active Network Data, ACM Conference on Computer and Communications Security (CCS), 2024.",
     "date": "September 2024",
     "content": "The skies above the Georgia Tech campus were clear in late spring as a group of graduate students gathered at Couch Park to test their custom-built drones one last time before the semester ended.  \n&nbsp;  \nTheir instructor, Associate Professor Saman Zonouz, created this course to teach students to prevent, detect, and respond to common cyberattacks launched against cyber-physical systems.  \n&nbsp;  \nMore information here: [[ WWW ]](https://www.cc.gatech.edu/news/video-drone-course-goes-beyond-protecting-our-eyes-sky)",
