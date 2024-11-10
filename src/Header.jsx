@@ -1,10 +1,14 @@
 import { Link } from "react-router-dom"
 
 import Navbar from "./Navbar"
+import AdBanner from "./AdBanner"
 
+// Header component, at top of every page, contains main logo, title, logos, navbar
 export default function Header() {
   return (
     <div className="bg-gradient-to-r from-lime-300 to-sky-400">
+      <AdBanner display />
+
       <div className="flex flex-row gap-4 p-4 ">
         <Link to="/" className="w-48 md:w-1/5 object-contain">
           <img src="/CHORUS-color.png" alt="CHORUS logo" className="hover:scale-105 transition" />

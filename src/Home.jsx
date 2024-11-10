@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 
 import News from "./news_components/News"
 
+// Main page
 export default function Home() {
 
   useEffect(() => {

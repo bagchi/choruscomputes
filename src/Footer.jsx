@@ -1,3 +1,4 @@
+// Footer
 export default function Footer() {
   return (
     <div className="bg-sky-600 w-full h-24">

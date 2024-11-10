@@ -1,3 +1,4 @@
+// All news article data is stored here locally in array
 // ordered by date, most recent first
 
 // title: string
@@ -5,6 +6,21 @@
 // content: markdown string (include two spaces before \n for new line)
 // images: {url: string, caption: string}[]
 let news_articles = [
+  {
+    "title": "CHORUS & CRISP Grand Challenges Workshop 2024",
+    "date": "November 19-21, 2024",
+    "content": `&nbsp;
+      \n**Event Link: [Grand Challenges Workshop 2024](https://engineering.purdue.edu/grandchallenges)**
+      \n&nbsp;
+      \n**Location**: [Wright Center](https://ag.purdue.edu/department/fnr/research/facilities/wright-center.html), Martell Forest (Reception on the 19th); [Recreational Sports Center](https://www.purdue.edu/recwell/) (20th and 21st); [Shively Club](https://purduesports.com/sports/2019/4/9/facilities-shively-club) (Banquet on the 20th), Purdue University, West Lafayette, IN
+      \n&nbsp;
+      \nKickstarting our NSF-funded CHORUS Center, this workshop will bring together leaders in resilient cyber-infrastructures, cyber-physical systems, and socio-technical resilience. Industry and academic speakers, along with federal program managers, will introduce the vision and goals through foundational techniques and real-world case studies to strengthen adaptive and resilient critical infrastructure.
+    `,
+    "images": [{
+      "url": "/CHORUS-color.png",
+      "caption": ""
+    }]
+  },
   {
     "title": "Purdue Team Starts Work on NSF Center on Resilient Cyber-Physical Systems with Application to Autonomous Transportation",
     "date": "October 2024",

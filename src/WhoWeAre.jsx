@@ -1,3 +1,6 @@
+// Who We Are page, uses local data in arrays to display all roles.
+// TODO: at some point, if needed, create a server to pull the data from, but you'll
+//       have to restructure entire codebase
 export default function WhoWeAre() {
 
   // name: string

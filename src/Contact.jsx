@@ -1,3 +1,5 @@
+
+// Contact page
 export default function Contact() {
   return (
     <div className="grid h-full gap-8">

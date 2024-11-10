@@ -26,7 +26,12 @@ export default function News(props) {
                   <img key={image.url} src={image.url} alt={image.caption} className="object-cover w-full py-2" />
                 ))}
               </div>
-              <ReactMarkdown className="reactMarkDown line-clamp-6">{item.content}</ReactMarkdown>
+              <a onClick={(e) => {
+                e.stopPropagation();
+                e.nativeEvent.stopImmediatePropagation();
+              }}>
+                <ReactMarkdown className="reactMarkDown line-clamp-6">{item.content}</ReactMarkdown>
+              </a>
             </div>
           </Link>
         </span>
