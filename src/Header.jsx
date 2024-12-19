@@ -7,7 +7,7 @@ import AdBanner from "./AdBanner"
 export default function Header() {
   return (
     <div className="bg-gradient-to-r from-lime-300 to-sky-400">
-      <AdBanner display />
+      <AdBanner display={false} />
 
       <div className="flex flex-row gap-4 p-4 ">
         <Link to="/" className="w-48 md:w-1/5 object-contain">
