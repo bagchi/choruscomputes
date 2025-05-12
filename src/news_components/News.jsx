@@ -21,9 +21,15 @@ export default function News(props) {
             <div className="border border-slate-400 p-4 hover:scale-[1.01] hover:cursor-pointer transition">
               <h2 className="text-2xl font-bold">{item.title}</h2>
               <p className="text-sm font-light">{item.date}</p>
-              <div className="flex flex-col">
+              <div className="flex flex-col items-center">
                 {item.images.map((image) => (
-                  <img key={image.url} src={image.url} alt={image.caption} className="object-cover w-full py-2" />
+                  <img
+                    key={image.url}
+                    src={image.url}
+                    alt={image.caption}
+                    style={{ width: image.size ? `${image.size * 100}%` : '100%' }}
+                    className="py-2"
+                  />
                 ))}
               </div>
               <a onClick={(e) => {

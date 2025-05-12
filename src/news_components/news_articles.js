@@ -4,19 +4,31 @@
 // title: string
 // date: string
 // content: markdown string (include two spaces before \n for new line)
-// images: {url: string, caption: string}[]
+// images: {url: string, caption: string, size?: number}[]
 let news_articles = [
   {
     "title": "PAVE: Patching and Adapting Video Large Language Models accepted to CVPR 2025",
     "date": "March 2025",
     "content": "Our paper was accepted to CVPR 2025. This paper addresses the problem of adapting pre-trained video large lanuage models to downstream tasks involving additional input modality or different data type. This work falls under Thrust 3 of the CHORUS center.  \n&nbsp;  \n**Citation**: Zhuoming Liu, Yiquan Li, Khoi Duc Nguyen, Yiwu Zhong, and Yin Li. PAVE: Patching and Adapting Video Large Language Models. IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR) 2025. (acceptance rate: 22.1%)  \n&nbsp;  \n**Software Release**: We have open-sourced the code for our CVPR 2025 paper at [https://github.com/dragonlzm/PAVE](https://github.com/dragonlzm/PAVE)",
-    "images": []
+    "images": [
+      {
+        "url": "news_images/pave_article.png",
+        "caption": "",
+        "size": 0.5
+      }
+    ]
   },
   {
     "title": "Agile3D: Adaptive 3D Object Detection System accepted to MobiSys 2025",
     "date": "March 2025",
     "content": "Our collaborative paper between Purdue and partner institutions has been accepted to MobiSys 2025. This work presents an adaptive 3D object detection system that dynamically reconfigures execution based on runtime contention and content characteristics. This research falls under Thrust 3 of the CHORUS center.  \n&nbsp;  \n**Citation**: Pengcheng Wang, Zhuoming Liu, Shayok Bagchi, Ran Xu, Saurabh Bagchi, Yin Li, and Somali Chaterji. Agile3D: Adaptive Contention- and Content-Aware 3D Object Detection for Embedded GPUs. ACM International Conference on Mobile Systems, Applications, and Services (MobiSys) 2025. (acceptance rate: 18.0%)",
-    "images": []
+    "images": [
+      {
+        "url": "news_images/agile3d_article.png",
+        "caption": "",
+        "size": 0.5
+      }
+    ]
   },
   {
     "title": "CHORUS & CRISP Grand Challenges Workshop 2024",
@@ -30,7 +42,8 @@ let news_articles = [
     `,
     "images": [{
       "url": "/CHORUS-color.png",
-      "caption": ""
+      "caption": "",
+      "size": 0.5
     }]
   },
   {
