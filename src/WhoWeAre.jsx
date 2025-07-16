@@ -117,7 +117,7 @@ export default function WhoWeAre() {
       ]
     },
     {
-      company: "Adobe Research",
+      company: "Adobe",
       logo: "partner_logos/adobe-research.png",
       partners: [
         {
