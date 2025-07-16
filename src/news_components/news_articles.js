@@ -9,7 +9,7 @@ let news_articles = [
   {
     "title": "PAVE: Patching and Adapting Video Large Language Models accepted to CVPR 2025",
     "date": "March 2025",
-    "content": "Our paper was accepted to CVPR 2025. This paper addresses the problem of adapting pre-trained video large lanuage models to downstream tasks involving additional input modality or different data type. This work falls under Thrust 3 of the CHORUS center.  \n&nbsp;  \n**Citation**: Zhuoming Liu, Yiquan Li, Khoi Duc Nguyen, Yiwu Zhong, and Yin Li. PAVE: Patching and Adapting Video Large Language Models. IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR) 2025. (acceptance rate: 22.1%)  \n&nbsp;  \n**Software Release**: We have open-sourced the code for our CVPR 2025 paper at [https://github.com/dragonlzm/PAVE](https://github.com/dragonlzm/PAVE)",
+    "content": "The paper addresses the problem of adapting pre-trained video large lanuage models to downstream tasks involving additional input modality or different data type. This work falls under Thrust 3 of the CHORUS center.  \n&nbsp;  \n**Citation**: Zhuoming Liu, Yiquan Li, Khoi Duc Nguyen, Yiwu Zhong, and Yin Li. PAVE: Patching and Adapting Video Large Language Models. IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR) 2025. (acceptance rate: 22.1%)  \n&nbsp;  \n**Software Release**: We have open-sourced the code for our CVPR 2025 paper at [https://github.com/dragonlzm/PAVE](https://github.com/dragonlzm/PAVE)",
     "images": [
       {
         "url": "news_images/pave_article.png",
