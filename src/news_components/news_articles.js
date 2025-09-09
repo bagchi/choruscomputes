@@ -7,6 +7,30 @@
 // images: {url: string, caption: string, size?: number}[]
 let news_articles = [
   {
+    "title": "Robust 3D Object Detection using Probabilistic Point Clouds from Single-Photon LiDARs accepted to ICCV 2025",
+    "date": "August 2025",
+    "content": "This paper presents Probabilistic Point Clouds (PPC), a novel 3D LiDAR scene representation for robust 3D object detection. PPC augments each point with a probability attribute that encapsulates the measurement uncertainty (or confidence) in the raw data. This research falls under Thrust 2 of the CHORUS center.  \n&nbsp;  \n**Citation**: Bhavya Goyal, Felipe Gutierrez-Barragan, Wei Lin, Andreas Velten, Yin Li, and Mohit Gupta. Robust 3D Object Detection using Probabilistic Point Clouds from Single-Photon LiDARs. International Conference on Computer Vision, 2025  \n&nbsp;  \n**Code Release**: [https://github.com/bhavyagoyal/ppc](https://github.com/bhavyagoyal/ppc)",
+    "images": [
+      {
+        "url": "news_images/robust3D_article.jpg",
+        "caption": "",
+        "size": 0.5
+      }
+    ]
+  },
+  {
+    "title": "LETS Forecast: Learning Embedology for Time Series Forecasting published in ICML 2025",
+    "date": "August 2025",
+    "content": "This paper introduces DeepEDM, a framework that integrates nonlinear dynamical systems modeling with deep neural networks for time series analysis. This research falls under Thrust 3 of the CHORUS center.  \n&nbsp;  \n**Citation**: Abrar Majeedi, Viswanatha Reddy Gajjala, Satya Sai Srinath Namburi GNVV, Nada Magdi Elkordi, and Yin Li. LETS Forecast: Learning Embedology for Time Series Forecasting. Forty-Second International Conference on Machine Learning, 2025.  \n&nbsp;  \n**Code Release**: [https://github.com/abrarmajeedi/DeepEDM](https://github.com/abrarmajeedi/DeepEDM)",
+    "images": [
+      {
+        "url": "news_images/LETSforecast_article.gif",
+        "caption": "",
+        "size": 0.5
+      }
+    ]
+  },
+  {
     "title": "Joint work with Hyundai on intrusion detection and prevention systems (IDPS) for in-vehicle networks",
     "date": "August 2025",
     "content": "The fruitful collaboration between PI Saman Zonouz at Georgia Tech and Hyundai has entered its second year. In the first year of our Hyundai collaboration, we focused on foundational research and prototyping intrusion detection and prevention systems (IDPS) for in-vehicle networks, primarily targeting CAN bus and Ethernet. We systematically analyzed attack surfaces --- application- and link-layer CAN exploits such as flooding, masquerading, and frame hijacking, as well as Ethernet threats including DoS, replay, fuzzing, and unauthorized communication. From this analysis, we developed two CAN defense prototypes: a bus monitor (a standalone node that detects and prevents selected CAN attacks via physical-layer fingerprinting and error-frame injection) and a bus guardian (an ECU-level hardware add-on enforcing ID, frequency, and protocol compliance to stop attacks at the source). Both prototypes were validated on testbeds and real vehicles, showing near-perfect detection and prevention rates with negligible false positives. In parallel, we built an Ethernet IDPS within the CCU, using hybrid rule-based and statistical anomaly detection to secure SOME/IP traffic. Experiments demonstrated >94% detection and prevention rates across diverse attack scenarios, and we developed dashboards and visualization tools to highlight real-time anomalies.  \n&nbsp;  \nBuilding on these results, the second year expands toward a context-aware, online operational system tailored to Hyundai’s vehicle networks. The emphasis is on embedding semantic and operational awareness into detection, so that message plausibility is validated against vehicle state (e.g., speed, acceleration, and subsystem conditions) rather than purely statistical anomalies. Phase 1 develops offline normal traffic profiling using Hyundai's private and other public datasets and machine learning models to capture temporal patterns, while formulating rule-based detection strategies. Phase 2 transitions to real-time deployment, implementing a monitor node that extracts semantic payloads and applies context-aware rules during live operations. The system will be rigorously evaluated on attack scenarios, including real-world ECU spoofing with an external CAN injection module, ensuring resilience to stealthy adversaries. Deliverables include embedded prototypes, recorded demonstrations, technical reports, and final testbed validations. Together, this fruitful collaborative effort progresses from robust proof-of-concept IDPS designs to a practical, context-aware cybersecurity framework ready for integration into Hyundai’s next-generation vehicle platforms. \n&nbsp;  \n**Some early results are to be found in: Zhaozhou Tang, Khaled Serag, Saman Zonouz, Z. Berkay Celik, Dongyan Xu, and Raheem Beyah. {WIP}: Intrusion Detection and Localization for {CAN} by Extracting Propagation Delay Features from Message Intervals. In 3rd USENIX Symposium on Vehicle Security and Privacy (VehicleSec 25), pp. 19-26. 2025.",
