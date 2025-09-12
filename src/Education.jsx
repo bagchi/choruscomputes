@@ -16,7 +16,7 @@ export default function Education() {
           <thead>
             <tr>
               <th className="text-left px-4 py-2 border-b border-r border-black w-[80%]">Topic</th>
-              <th className="text-left px-4 py-2 border-b w-[20%]">Hours</th>
+              <th className="text-left px-4 py-2 border-b border-black w-[20%]">Hours</th>
             </tr>
           </thead>
           <tbody>
