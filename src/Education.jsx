@@ -22,7 +22,7 @@ export default function Education() {
           <tbody>
             <tr>
               <td className="px-4 py-2 border-b border-r border-black">Introduction: Motivation, System view of dependable, design, Terminology</td>
-              <td className="px-4 py-2 border-b">2</td>
+              <td className="px-4 py-2 border-b border-black">2</td>
             </tr>
             <tr>
               <td className="px-4 py-2 border-b border-r border-black">
@@ -34,7 +34,7 @@ export default function Education() {
                   <li>Optional programming assignment: Data center clusters</li>
                 </ul>
               </td>
-              <td className="px-4 py-2 border-b">3</td>
+              <td className="px-4 py-2 border-b border-black">3</td>
             </tr>
             <tr>
               <td className="px-4 py-2 border-b border-r border-black">
@@ -46,7 +46,7 @@ export default function Education() {
                   <li>Optional programming assignment: Adversarial ML</li>
                 </ul>
               </td>
-              <td className="px-4 py-2 border-b">3</td>
+              <td className="px-4 py-2 border-b border-black">3</td>
             </tr>
             <tr>
               <td className="px-4 py-2 border-b border-r border-black">
@@ -57,7 +57,7 @@ export default function Education() {
                   <li>Peer-to-peer and Hub-and-Spokes Learning</li>
                 </ul>
               </td>
-              <td className="px-4 py-2 border-b">2</td>
+              <td className="px-4 py-2 border-b border-black">2</td>
             </tr>
           </tbody>
         </table>
