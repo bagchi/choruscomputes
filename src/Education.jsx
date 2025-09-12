@@ -12,7 +12,7 @@ export default function Education() {
         <p>
           Target audience: Someone wanting to understand the tools and techniques available for increasing system reliability and security through ML. There are two hands-on exercises with real-world datasets and attack scripts.
         </p>
-        <table className="border border-gray-300">
+        <table className="border">
           <thead>
             <tr>
               <th className="text-left px-4 py-2 border-b w-[80%]">Topic</th>
@@ -39,7 +39,7 @@ export default function Education() {
             <tr>
               <td className="px-4 py-2 border-b">
                 Big data for security
-                <ul>
+                <ul className="list-disc list-inside space-y-1">
                   <li>Fooling ML models</li>
                   <li>Adversarial examples</li>
                   <li>Improving model robustness through Adversarial Training</li>
@@ -51,7 +51,7 @@ export default function Education() {
             <tr>
               <td className="px-4 py-2 border-b">
                 Security of distributed Machine Learning
-                <ul>
+                <ul className="list-disc list-inside space-y-1">
                   <li>Byzantine robust Federated Learning (FL)</li>
                   <li>Privacy in FL</li>
                   <li>Peer-to-peer and Hub-and-Spokes Learning</li>
