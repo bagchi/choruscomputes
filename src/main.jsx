@@ -8,6 +8,7 @@ import WhoWeAre from './WhoWeAre.jsx'
 import NewsWrapper from './news_components/NewsWrapper.jsx'
 import NewsArticle from './news_components/NewsArticle.jsx'
 import Contact from './Contact.jsx'
+import Education from './Education.jsx'
 import Footer from './Footer.jsx'
 import './index.css'
 
@@ -21,6 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="/who-we-are" element={<WhoWeAre />} />
           <Route path="/news" element={<NewsWrapper />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/education" element={<Education />} />
 
           <Route path="/news/:slug" element={<NewsArticle />} />
         </Routes>
