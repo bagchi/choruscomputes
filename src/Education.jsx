@@ -12,20 +12,20 @@ export default function Education() {
         <p>
           Target audience: Someone wanting to understand the tools and techniques available for increasing system reliability and security through ML. There are two hands-on exercises with real-world datasets and attack scripts.
         </p>
-        <table className="border">
+        <table className="border border-black">
           <thead>
             <tr>
-              <th className="text-left px-4 py-2 border-b w-[80%]">Topic</th>
+              <th className="text-left px-4 py-2 border-b border-r border-black w-[80%]">Topic</th>
               <th className="text-left px-4 py-2 border-b w-[20%]">Hours</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td className="px-4 py-2 border-b">Introduction: Motivation, System view of dependable, design, Terminology</td>
+              <td className="px-4 py-2 border-b border-r border-black">Introduction: Motivation, System view of dependable, design, Terminology</td>
               <td className="px-4 py-2 border-b">2</td>
             </tr>
             <tr>
-              <td className="px-4 py-2 border-b">
+              <td className="px-4 py-2 border-b border-r border-black">
                 Big data for reliability
                 <ul className="list-disc list-inside space-y-1">
                   <li>Approximate computing</li>
@@ -37,7 +37,7 @@ export default function Education() {
               <td className="px-4 py-2 border-b">3</td>
             </tr>
             <tr>
-              <td className="px-4 py-2 border-b">
+              <td className="px-4 py-2 border-b border-r border-black">
                 Big data for security
                 <ul className="list-disc list-inside space-y-1">
                   <li>Fooling ML models</li>
@@ -49,7 +49,7 @@ export default function Education() {
               <td className="px-4 py-2 border-b">3</td>
             </tr>
             <tr>
-              <td className="px-4 py-2 border-b">
+              <td className="px-4 py-2 border-b border-r border-black">
                 Security of distributed Machine Learning
                 <ul className="list-disc list-inside space-y-1">
                   <li>Byzantine robust Federated Learning (FL)</li>
