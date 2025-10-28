@@ -12,6 +12,9 @@ export default function Education() {
         <p>
           Target audience: Someone wanting to understand the tools and techniques available for increasing system reliability and security through ML. There are two hands-on exercises with real-world datasets and attack scripts.
         </p>
+        <p>
+          Interested to adopt? Contact the CHORUS Director or Project Manager if you would like to take a look for possible adoption. 
+        </p>
         <table className="border border-black">
           <thead>
             <tr>
