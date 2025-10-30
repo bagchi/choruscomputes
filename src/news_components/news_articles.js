@@ -7,6 +7,18 @@
 // images: {url: string, caption: string, size?: number}[]
 let news_articles = [
   {
+    "title": "A student from the CHORUS Center, Brendan Gould of Georgia Tech, co-advised by CHORUS PI Samuel Coogan, won a Fellowship from the NSF Graduate Research Fellowship Program (GRFP). The award provides 3 years' worth of financial support for doctoral studies.",
+    "date": "October 2025",
+    "content": "**Proposal Title**: Safety-Assured Control in Heterogeneous, Multi-Agent Systems  \n&nbsp;  \n**Summary**: The field of robotics promises a future where intelligent agents work with and for humans in our day-to-day lives. To make this vision a reality, we must first ensure that engineered agents can safely interact with human decision-makers. Prior work uses game theory to describe and predict the interaction of strategic agents, but depends on the overly restrictive assumption that every agents' behavior can be exactly described as minimization of a known cost function. My proposal relaxes this restriction, allowing for a range of reasonably strategic responses instead of just an exact minimum, modelling both sub-rational behavior of human agents and uncertainty in the cost function. Then, I apply techniques from robust control, specifically reachable set analysis, to choose actions that perform well regardless of the decisions of other agents.  \n&nbsp;  \n**Background**: Brendan Gould is a Ph.D. student in the School of Electrical and Computer Engineering at Georgia Tech, co-advised by Professors Samuel Coogan and Kyriakos Vamvoudakis. His research interests lie at the intersection of robust control and algorithmic game theory, with the main goal of providing formal safety guarantees for engineered systems that interact with human agents. He graduated from the University of Colorado Colorado Springs with a dual B.S. in Mathematics and Computer Science, and recently received a NSF GRFP award.",
+    "images": [
+      {
+        "url": "news_images/bgould-GRFP.png",
+        "caption": "",
+        "size": 0.5
+      }
+    ]
+  },
+  {
     "title": "Robust 3D Object Detection using Probabilistic Point Clouds from Single-Photon LiDARs accepted to ICCV 2025",
     "date": "August 2025",
     "content": "This paper presents Probabilistic Point Clouds (PPC), a novel 3D LiDAR scene representation for robust 3D object detection. PPC augments each point with a probability attribute that encapsulates the measurement uncertainty (or confidence) in the raw data. This research falls under Thrust 2 of the CHORUS center.  \n&nbsp;  \n**Citation**: Bhavya Goyal, Felipe Gutierrez-Barragan, Wei Lin, Andreas Velten, Yin Li, and Mohit Gupta. Robust 3D Object Detection using Probabilistic Point Clouds from Single-Photon LiDARs. International Conference on Computer Vision, 2025  \n&nbsp;  \n**Code Release**: [https://github.com/bhavyagoyal/ppc](https://github.com/bhavyagoyal/ppc)",
