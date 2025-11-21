@@ -9,7 +9,7 @@ let news_articles = [
  {
     "title": "Purdue PIs of CHORUS recognized at Purdue Seed for Success program",
     "date": "November 2025",
-    "content": "The Seed for Success event held at Purdue honored Purdue faculty and staff who received a sponsored grant equal to or greater than $1 million in FY25. Among the CHORUS PIs, Saurabh Bagchi, Timothy Cason, Somali Chaterji, and Shreyas Sundaram, attended and were recognized at the event.",
+    "content": "The Seed for Success event held at Purdue on November 18 honored Purdue faculty and staff who received a sponsored grant equal to or greater than $1 million in FY25. Among the CHORUS PIs, Saurabh Bagchi, Timothy Cason, Somali Chaterji, and Shreyas Sundaram, attended and were recognized at the event.",
     "images": [
       {
         "url": "news_images/chorus-seed-for-success-112025.jpg",
