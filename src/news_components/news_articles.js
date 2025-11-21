@@ -6,7 +6,24 @@
 // content: markdown string (include two spaces before \n for new line)
 // images: {url: string, caption: string, size?: number}[]
 let news_articles = [
-  {
+ {
+    "title": "Purdue PIs of CHORUS recognized at Purdue Seed for Success program",
+    "date": "November 2025",
+    "content": "The Seed for Success event held at Purdue honored Purdue faculty and staff who received a sponsored grant equal to or greater than $1 million in FY25. Among the CHORUS PIs, Saurabh Bagchi, Timothy Cason, Somali Chaterji, and Shreyas Sundaram, attended and were recognized at the event.",
+    "images": [
+      {
+        "url": "news_images/chorus-seed-for-success-112025.jpg",
+        "caption": "From L to R: Dan Delaurentis (Purdue VP for Research), Saurabh Bagchi, Somali Chaterji, Tim Cason, Shreyas Sundaram",
+        "size": 0.5
+      },
+      {
+        "url": "news_images/nsf-chorus-seed-for-success-slide.png",
+        "caption": "NSF CHORUS logo and Purdue PIs",
+        "size": 0.5
+      }	
+    ]
+ },
+ {
     "title": "A student from the CHORUS Center, Brendan Gould of Georgia Tech, co-advised by CHORUS PI Samuel Coogan, won a Fellowship from the NSF Graduate Research Fellowship Program (GRFP). The award provides 3 years worth of financial support for doctoral studies.",
     "date": "October 2025",
     "content": "**Proposal Title**: Safety-Assured Control in Heterogeneous, Multi-Agent Systems  \n&nbsp;  \n**Summary**: The field of robotics promises a future where intelligent agents work with and for humans in our day-to-day lives. To make this vision a reality, we must first ensure that engineered agents can safely interact with human decision-makers. Prior work uses game theory to describe and predict the interaction of strategic agents, but depends on the overly restrictive assumption that every agents' behavior can be exactly described as minimization of a known cost function. My proposal relaxes this restriction, allowing for a range of reasonably strategic responses instead of just an exact minimum, modelling both sub-rational behavior of human agents and uncertainty in the cost function. Then, I apply techniques from robust control, specifically reachable set analysis, to choose actions that perform well regardless of the decisions of other agents.  \n&nbsp;  \n**Background**: Brendan Gould is a Ph.D. student in the School of Electrical and Computer Engineering at Georgia Tech, co-advised by Professors Samuel Coogan and Kyriakos Vamvoudakis. His research interests lie at the intersection of robust control and algorithmic game theory, with the main goal of providing formal safety guarantees for engineered systems that interact with human agents. He graduated from the University of Colorado Colorado Springs with a dual B.S. in Mathematics and Computer Science, and recently received a NSF GRFP award.",
