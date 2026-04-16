@@ -6,7 +6,19 @@
 // content: markdown string (include two spaces before \n for new line)
 // images: {url: string, caption: string, size?: number}[]
 let news_articles = [
- {
+  {
+      "title": "Autonomous vehicle CTF on April 19-20",
+      "date": "April 2026",
+      "content": "We are organizing a virtual autonomous vehicle Capture The Flag (CTF) contest over a 24-hour period, April 19-20. In this CTF, called Gridlock, you will hack on 7 challenges from the comfort of your laptop. \nForm teams of 2 and sign up at the link in the QR code of the poster. There are cash prizes for winners and for those who complete the challenges. And there are bragging rights of winning an NSF-supported competition. You don't need deep security or autonomous vehicle background to participate.",
+      "images": [
+        {
+          "url": "news_images/GRIDLOCK_ Poster_2026.png",
+          "caption": "",
+          "size": 0.5
+        }
+      ]
+  },
+  {
     "title": "Purdue PIs of CHORUS recognized at Purdue Seed for Success program",
     "date": "November 2025",
     "content": "The Seed for Success event held at Purdue on November 18 honored Purdue faculty and staff who received a sponsored grant equal to or greater than $1 million in FY25. Among the CHORUS PIs, Saurabh Bagchi, Timothy Cason, Somali Chaterji, and Shreyas Sundaram, attended and were recognized at the event.",
