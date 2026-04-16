@@ -12,7 +12,7 @@ let news_articles = [
       "content": "We are organizing a virtual autonomous vehicle Capture The Flag (CTF) contest over a 24-hour period, April 19-20. In this CTF, called Gridlock, you will hack on 7 challenges from the comfort of your laptop. \n&nbsp; \nForm teams of 2 and sign up at the link in the QR code of the poster. There are cash prizes for winners and for those who complete the challenges. And there are bragging rights of winning an NSF-supported competition. You don't need deep security or autonomous vehicle background to participate.",
       "images": [
         {
-          "url": "news_images/GRIDLOCK_ Poster_2026.png",
+          "url": "news_images/GRIDLOCK_Poster_2026.png",
           "caption": "",
           "size": 0.5
         }
