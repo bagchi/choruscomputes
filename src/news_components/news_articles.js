@@ -7,6 +7,18 @@
 // images: {url: string, caption: string, size?: number}[]
 let news_articles = [
   {
+      "title": "CHORUS has successful NSF site visit",
+      "date": "June 8 2026",
+      "content": "The entire CHORUS team, with all the PIs and the graduate researchers, came together at Purdue and presented the progress on the center to NSF. From NSF, Oleg Sokolsky and Ralph Wachter joined. There was brainstorming and feedback from NSF on the progress. Then there was a poster competition with posters presented by the graduate researchers. Here is the schedule of presentations at the site visit.",
+      "images": [
+        {
+          "url": "news_images/chorus-group-pic-0626.JPG",
+          "caption": "CHORUS team at the NSF site visit on Purdue campus",
+          "size": 0.5
+        }
+      ]
+  },
+  {
       "title": "Autonomous vehicle CTF on April 19-20",
       "date": "April 2026",
       "content": "We are organizing a virtual autonomous vehicle Capture The Flag (CTF) contest over a 24-hour period, April 19-20. In this CTF, called Gridlock, you will hack on 7 challenges from the comfort of your laptop.  \n&nbsp;  \nForm teams of 2 and sign up at the link in the QR code of the poster. There are cash prizes for winners and for those who complete the challenges. And there are bragging rights of winning an NSF-supported competition. You don't need deep security or autonomous vehicle background to participate.",
