@@ -21,7 +21,7 @@ let news_articles = [
   {
       "title": "Autonomous vehicle CTF on April 19-20",
       "date": "April 2026",
-      "content": "We are organizing a virtual autonomous vehicle Capture The Flag (CTF) contest over a 24-hour period, April 19-20. In this CTF, called Gridlock, you will hack on 7 challenges from the comfort of your laptop.  \n&nbsp;  \nForm teams of 2 and sign up at the link in the QR code of the poster. There are cash prizes for winners and for those who complete the challenges. And there are bragging rights of winning an NSF-supported competition. You don't need deep security or autonomous vehicle background to participate.",
+      "content": "We organized a virtual autonomous vehicle Capture The Flag (CTF) contest over a 24-hour period, April 19-20. In this CTF, called ConCAVe, teams of 2 students hacked on 7 challenges from the comfort of their laptops.  \n&nbsp;  \nThere were cash prizes for winners and for those who complete the challenges. And there are bragging rights of winning an NSF-supported competition. One didn't need deep security or autonomous vehicle background to participate. In the end, 31 teams across the four universities participated in the CTF. This is the first CTF for Connected and Autonomous Vehicles.",
       "images": [
         {
           "url": "news_images/GRIDLOCK_Poster_2026.png",
