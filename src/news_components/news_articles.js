@@ -12,12 +12,37 @@ let news_articles = [
       "content": "The entire CHORUS team, with all the PIs and the graduate researchers, came together at Purdue and presented the progress on the center to NSF. From NSF, Oleg Sokolsky and Ralph Wachter joined. There was brainstorming and feedback from NSF on the progress. Then there was a poster competition with posters presented by the graduate researchers. Here is the schedule of presentations at the site visit.",
       "images": [
         {
-          "url": "news_images/chorus-group-pic-0626.JPG",
+          "url": "news_images/chorus-group-pic-0626.jpg",
           "caption": "CHORUS team at the NSF site visit on Purdue campus",
           "size": 0.5
         }
       ]
   },
+  {
+      "title": "Student researcher poster award winners announced",
+      "date": "June 8 2026",
+      "content": "At the NSF site visit, there was a poster and demo competition for the graduate researchers, in which there were 16 entries. Three judges viewed these entries and discussed with the researchers. They scored the entries on technical content (50%), lightning talk (25%), and presentation + Q&A (25%). Thanks to the judges, Dr. Mark Tschopp, Prof. T. N. Vijaykumar, and Prof. Ashraf Alam. CHORUS PI, Yin Li from the University of Wisconsin organized the competition. The winners came out to be:  \n
+       Winner: Zhuoming Liu (University of Wisconsin at Madison): \"PAVE: Patching and Adapting Video Large Language Models \" \n
+       First runner-up: Preeti Mukherjee (Purdue University): \"Content-Aware Efficient Diffusion Models for Image Generation\" \n
+       Second runner-up: Hyunseung Kim (Purdue University): \"ApproxBit: Efficient Video Analytics through Latency-Aware Offloading with Learned Binary Codes\" \n",
+      "images": [
+        {
+          "url": "news_images/zhuoming-liu-poster-0626.jpg",
+          "caption": "Zhuoming Liu: Winner of poster competition",
+          "size": 0.5
+        },
+        {
+          "url": "news_images/preeti-mukherjee-poster-0626.jpg",
+          "caption": "Preeti Mukherjee: First runner-up of poster competition",
+          "size": 0.5
+        },
+        {
+          "url": "news_images/hyunseung-kim-poster-0626.jpg",
+          "caption": "Hyunseung Kim: Second runner-up of poster competition",
+          "size": 0.5
+        }
+      ]
+  }, 
   {
       "title": "Autonomous vehicle CTF on April 19-20",
       "date": "April 2026",
