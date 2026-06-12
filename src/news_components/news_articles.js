@@ -23,9 +23,9 @@ let news_articles = [
       "date": "June 8 2026",
       "content": `At the NSF site visit, there was a poster and demo competition for the graduate researchers, in which there were 16 entries. Three judges viewed these entries and discussed with the researchers. They scored the entries on technical content (50%), lightning talk (25%), and presentation plus Q&A (25%). Thanks to the judges, Dr. Mark Tschopp, Prof. T. N. Vijaykumar, and Prof. Ashraf Alam. CHORUS PI, Yin Li from the University of Wisconsin organized the competition. The winners came out to be: 
       
-       **Winner: Zhuoming Liu (University of Wisconsin at Madison)**: PAVE: Patching and Adapting Video Large Language Models  
-       **First runner-up: Preeti Mukherjee (Purdue University)**: Content-Aware Efficient Diffusion Models for Image Generation  
-       **Second runner-up: Hyunseung Kim (Purdue University)**: ApproxBit: Efficient Video Analytics through Latency-Aware Offloading with Learned Binary Codes `,
+       *Winner: Zhuoming Liu (University of Wisconsin at Madison)*: PAVE: Patching and Adapting Video Large Language Models  
+       *First runner-up: Preeti Mukherjee (Purdue University)*: Content-Aware Efficient Diffusion Models for Image Generation  
+       *Second runner-up: Hyunseung Kim (Purdue University)*: ApproxBit: Efficient Video Analytics through Latency-Aware Offloading with Learned Binary Codes `,
       "images": [
         {
           "url": "news_images/zhuoming-liu-poster-0626.jpg",
