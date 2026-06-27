@@ -32,7 +32,7 @@ export default function Home() {
       <div className="md:w-1/4 my-12">
         <h1 className="text-2xl font-bold text-sky-600">Recent News</h1>
         <div className="flex flex-col h-full gap-2">
-          <div className="grid gap-4">
+          <div className="grid grid-cols-1 gap-4">
             <News isHome={true} />
           </div>
           <Link to="/news" className="text-sky-600 hover:text-sky-800 w-full text-right">All News and Events {'>>'}</Link>
