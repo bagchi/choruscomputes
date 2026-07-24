@@ -26,12 +26,14 @@ function NewsArticle() {
       <div className="flex flex-col gap-2 my-4">
         {item.images.map((image) => (
           <div key={image.caption || image.url} className="flex flex-col items-center">
-            <img
-              src={image.url}
-              alt={image.caption}
-              style={{ width: image.size ? `${image.size * 100}%` : '100%' }}
-              className="py-2"
-            />
+            <a hre={image.url}>
+              <img
+                src={image.url}
+                alt={image.caption}
+                style={{ width: image.size ? `${image.size * 100}%` : '100%' }}
+                className="py-2"
+              />
+            </a>
             <p className="font-light text-gray-600">{image.caption}</p>
           </div>
         ))}
