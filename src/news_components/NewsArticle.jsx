@@ -26,7 +26,7 @@ function NewsArticle() {
       <div className="flex flex-col gap-2 my-4">
         {item.images.map((image) => (
           <div key={image.caption || image.url} className="flex flex-col items-center">
-            <a hre={image.url}>
+            <a href={image.url}>
               <img
                 src={image.url}
                 alt={image.caption}
